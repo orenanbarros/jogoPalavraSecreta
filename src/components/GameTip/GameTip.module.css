@@ -1,0 +1,61 @@
+.tip{
+    @apply
+    absolute
+    left-0
+    flex
+    flex-col
+    bg-[#0000009a]
+    h-screen
+    w-screen
+    justify-center
+    content-center
+    flex-wrap
+}
+
+
+.hideTip{
+    @apply
+    opacity-0
+}
+.tip > span{ 
+   @apply
+   text-yellow-400
+}
+
+.titleTip{
+    @apply
+    bg-yellow-400
+    p-1
+    flex
+    justify-between
+    items-center
+
+}
+.contentTip{ 
+    @apply
+        z-20
+        bg-white
+        p-3
+        flex
+        flex-col
+        justify-center
+        items-center
+        flex-wrap
+        min-w-[10rem]
+       
+}
+
+.contentTip span{ 
+    @apply
+    bg-[#007588]
+    text-white
+    p-4
+}
+
+.contentTip button{
+    @apply
+    w-10
+    mt-4
+    bg-slate-500
+    text-xs
+}

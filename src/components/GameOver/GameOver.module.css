@@ -1,0 +1,11 @@
+h1{
+    @apply
+    flex 
+    items-center 
+    flex-col
+    leading-loose
+    text-white
+    text-xl
+    font-bold
+    mb-16
+}

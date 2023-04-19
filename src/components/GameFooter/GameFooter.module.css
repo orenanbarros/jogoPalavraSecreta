@@ -1,0 +1,22 @@
+.gameFooter{
+    @apply
+    bg-[#00000049]
+    w-screen
+    p-3
+    flex
+    justify-between
+    items-center
+    relative
+}
+
+.wrongLetters{
+    @apply
+   text-white
+   
+  
+    
+}
+.wrongLetters span{
+    @apply
+    text-orange-300
+}

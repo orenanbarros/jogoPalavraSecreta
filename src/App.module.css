@@ -1,0 +1,28 @@
+
+.app{
+  @apply
+    flex
+    flex-col
+    items-center
+    justify-center
+    h-screen
+    text-center
+    bg-no-repeat
+    bg-center
+    bg-cover
+    relative
+    px-8
+}
+
+button{
+  @apply
+  text-sm
+  text-amber-400
+  rounded-sm
+  border-x
+  border-y
+  backdrop-blur-md
+  bg-[#ffffff33]
+  p-2
+}
+

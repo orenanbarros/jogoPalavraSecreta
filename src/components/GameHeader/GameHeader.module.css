@@ -1,0 +1,22 @@
+
+.gameHeader{
+    @apply
+    bg-[#00000049]
+    w-screen
+    p-3
+    flex
+    justify-between
+    items-center
+    text-white
+}
+
+.gameHeader span{
+    @apply
+    text-orange-300
+    mx-2
+}
+
+.score{
+    @apply
+    p-2
+}
